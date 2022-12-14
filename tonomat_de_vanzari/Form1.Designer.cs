@@ -32,6 +32,7 @@
             this.Dime = new System.Windows.Forms.Button();
             this.Quarter = new System.Windows.Forms.Button();
             this.credit_label = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // Nickel
@@ -80,11 +81,19 @@
             this.credit_label.TabIndex = 4;
             this.credit_label.Text = "label1";
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(223, 393);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(332, 27);
+            this.textBox1.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.credit_label);
             this.Controls.Add(this.Quarter);
             this.Controls.Add(this.Dime);
@@ -102,5 +111,6 @@
         private Button Dime;
         private Button Quarter;
         private Label credit_label;
+        private TextBox textBox1;
     }
 }
